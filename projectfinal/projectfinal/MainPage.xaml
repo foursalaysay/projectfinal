@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectfinal.MainPage">
+
+    <ScrollView>
+        
+   
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        
+        <Label Text="Enter Employee Number:"/>
+        <Entry x:Name="empno"/>
+
+        <Label Text="Enter Employee Name:"/>
+        <Entry x:Name="empname"/>
+
+        <Label Text="Enter Total Hours worked:"/>
+        <Entry x:Name="emphour"/>
+
+
+            <Label Text="-------------------------------------------------"/>
+            <Label Text="----------       EMPLOYMENT STATUS CHOICES     ------------"/>
+            <Label Text="-------------------------------------------------"/>
+            <Label Text="[1]. R - 800"/>
+        <Label Text="[2]. P - 600"/>
+        <Label Text="[3]. C - 500"/>
+        <Label Text="[4]. T - 450"/>
+        <Label Text="[5]. OTHERWISE - 400"/>
+       <Label Text="-------------------------------------------------"/>
+
+        <Label Text="Enter Employment Status:"/>
+        <Entry x:Name="empstatus"/>
+
+        <Label Text="-------------------------------------------------"/>
+        <Label Text="--------------     CIVIL STATUS CHOICES    ---------------"/>
+        <Label Text="-------------------------------------------------"/>
+        <Label Text="[1]. S - 500"/>
+        <Label Text="[2]. M - 300"/>
+        <Label Text="[3]. W - 400"/>
+        <Label Text="[4]. OTHERWISE - 350"/>
+        <Label Text="-------------------------------------------------"/>
+
+            <Label Text="Enter Civil Status:"/>
+        <Entry x:Name="empcivil"/>
+
+
+
+        <Button Clicked="Button_Clicked" Text="Add Employee Record"/>
+        <Button Clicked="Button_Clicked_1" Text="Update Employee Record"/>
+        <Button Clicked="Button_Clicked_2" Text="Search Employee Record"/>
+            <Button Clicked="Button_Clicked_3" Text="Delete Employee Record"/>
+
+
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

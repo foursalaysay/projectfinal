@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectfinal.Add">
+    <ContentPage.Content>
+        <ScrollView>
+            
+      
+        <StackLayout>
+            <Label Text="Employee Record Data!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                <StackLayout>
+                    <Label Text="EmployeeNumber:" FontAttributes="Bold" />
+                    <Entry x:Name="empNumberEntry" IsReadOnly="True" />
+
+                    <Label Text="Employee Name:" />
+                    <Entry x:Name="empNameEntry" IsReadOnly="True" />
+
+                    <Label Text="Hours Worked:" />
+                    <Entry x:Name="hoursWorkedEntry" IsReadOnly="True" />
+
+                    <Label Text="Employee Status:" />
+                    <Entry x:Name="empStatusEntry" IsReadOnly="True" />
+
+                    <Label Text="Civil Status:" />
+                    <Entry x:Name="civilStatusEntry" IsReadOnly="True" />
+
+                    <Label Text="Rate per Hour:" />
+                    <Entry x:Name="ratePerHourEntry" IsReadOnly="True" />
+
+                    <Label Text="Basic Income:" />
+                    <Entry x:Name="basicIncomeEntry" IsReadOnly="True" />
+
+                    <Label Text="Overtime Income:" />
+                    <Entry x:Name="overtimeIncomeEntry" IsReadOnly="True" />
+
+                    <Label Text="Gross Income:" />
+                    <Entry x:Name="grossIncomeEntry" IsReadOnly="True" />
+
+                    <Label Text="SSS:" />
+                    <Entry x:Name="sssEntry" IsReadOnly="True" />
+
+                    <Label Text="Withholding Tax:" />
+                    <Entry x:Name="wtaxEntry" IsReadOnly="True" />
+
+                    <Label Text="Philhealth:" />
+                    <Entry x:Name="philhealthEntry" IsReadOnly="True" />
+
+                    <Label Text="Pag-IBIG:" />
+                    <Entry x:Name="pagibigEntry" IsReadOnly="True" />
+
+                    <Label Text="Deductions:" />
+                    <Entry x:Name="deductionsEntry" IsReadOnly="True" />
+
+                    <Label Text="Net Income:" />
+                    <Entry x:Name="netIncomeEntry" IsReadOnly="True" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
